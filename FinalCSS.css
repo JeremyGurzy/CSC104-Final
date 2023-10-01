@@ -1,0 +1,86 @@
+body{
+	background-color:  #9ab7d7;
+}
+/*Head display flex to align image and text.*/
+/*If better way to combine the three id's to make less messy, please let me know */
+#head{
+    display: flex;
+    border-style: dotted;
+    border-color:#287fdb
+    
+}
+#image{
+    border-style: solid;
+   
+}
+#central{
+    font-size: 75px;
+    text-shadow: 0 0 6px #287fdb;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 75px;
+    align-self: center;
+    text-decoration: underline;
+    
+}
+
+/*Added float to center nav and content in columns.*/
+/*Font size dropped by 5px for more porfessionality*/
+.left-column{
+    float: left;
+    width: 15% ;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+/*Font size adjusted for more professionality.*/
+.main-content{
+    font-size: 25px;
+    float: left;
+    width: 425px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+}
+/*h2 tag given a color shadow.*/
+/*Not sure why h2 tag not moving when adding padding*/
+h2, h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #080606;
+	text-shadow:0 0 2px rgb(152, 13, 152);
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+/*Images floated and padded to create a third column*/
+#side-image{
+    float: left;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+/*Images given borders and colors for more noticeability.*/
+
+.image1{
+    border-style: solid;
+    border-color: #ff80ff #66b3ff #66b3ff #ff80ff
+    
+}
+.image2{
+    border-style: solid;
+    border-color: blue red red blue;
+}
+/*Text given width for better stack.*/
+#for-image{
+    width: 175px;
+    text-shadow: 0 0 4px #287fdb;
+}
+#under-link{
+    border-style: solid;
+}
+#Facts{
+    text-shadow: 0 0 5px #287fdb;
+}
+/*Did the best I could to  position Footer where it currently is, working on further solutions.*/
+footer{
+    margin-top: 450px;
+   
+}
