@@ -1,5 +1,7 @@
+/*Each page will have same CSS style to help connect each page and have similar setup*/
 body{
 	background-color:  #9ab7d7;
+   
 }
 /*Head display flex to align image and text.*/
 /*If better way to combine the three id's to make less messy, please let me know */
@@ -38,22 +40,37 @@ body{
     float: left;
     width: 425px;
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 25px;
+    padding-left: 100px;
 }
 /*h2 tag given a color shadow.*/
-/*Not sure why h2 tag not moving when adding padding*/
-h2, h3{
+/*Not sure why h2 tag on home page not moving when adding padding*/
+h3{
     font-family: 'Times New Roman', Times, serif;
     color: #080606;
 	text-shadow:0 0 2px rgb(152, 13, 152);
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
+}
+/*Gave h2 tags class to fix spacing on home page, still working on solution*/
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    color: #080606;
+	text-shadow:0 0 2px rgb(152, 13, 152);
+    font-size: 30px;
+    padding-left: 40px;
+}
+.fix{
+    font-family: 'Times New Roman', Times, serif;
+    color: #080606;
+	text-shadow:0 0 2px rgb(152, 13, 152);
+    font-size: 30px;
+    padding-left: 550px;
 }
 
 /*Images floated and padded to create a third column*/
 #side-image{
     float: left;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-bottom: 50px;
     font-size: 20px;
 }
@@ -61,12 +78,20 @@ h2, h3{
 
 .image1{
     border-style: solid;
-    border-color: #ff80ff #66b3ff #66b3ff #ff80ff
-    
+    border-color: #13e67c 
+
 }
 .image2{
     border-style: solid;
     border-color: blue red red blue;
+}
+.image3{
+    border-style: solid;
+    border-color: yellow
+}
+.image4{
+    border-style: solid;
+    border-color: black white white black 
 }
 /*Text given width for better stack.*/
 #for-image{
@@ -76,11 +101,59 @@ h2, h3{
 #under-link{
     border-style: solid;
 }
-#Facts{
+.Side-notes{
     text-shadow: 0 0 5px #287fdb;
 }
 /*Did the best I could to  position Footer where it currently is, working on further solutions.*/
 footer{
-    margin-top: 450px;
-   
+    margin-top: 600px;
+    bottom: 0;
 }
+#test{
+    padding-top: 1000px ;
+}
+#cc2{
+    padding-left: 30px
+}
+.pattern{
+    font-size: 20px;
+}
+
+
+
+table.Crochet-table {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 1px solid #FFFFFF;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.Crochet-table td, table.Crochet-table th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 2px;
+  }
+  table.Crochet-table tbody td {
+    font-size: 13px;
+  }
+  table.Crochet-table tr:nth-child(even) {
+    background: #D0E4F5;
+  }
+  table.Crochet-table thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+  }
+  table.Crochet-table thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+  }
+  table.Crochet-table thead th:first-child {
+    border-left: none;
+  }
+  
+  table.Crochet-table tfoot td {
+    font-size: 14px;
+  }
